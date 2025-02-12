@@ -1,0 +1,42 @@
+/* Dashboard Page Styles */
+.dashboard-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 50px 40px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.dashboard-container h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.dashboard-container p {
+  font-size: 18px;
+  color: #34495e;
+  margin-bottom: 30px;
+}
+
+.dashboard-container button {
+  padding: 14px 28px;
+  margin: 10px;
+  background-color: #3115cb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-container button:hover {
+  background-color: #2015c4;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
